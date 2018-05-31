@@ -30,3 +30,4 @@ def mergeSort(alist) :
 alist = [5,1,4,2,3,7]
 mergeSort(alist)
 print(alist)
+print(alist)
