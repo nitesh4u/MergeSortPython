@@ -3,7 +3,7 @@ def mergeSort(alist) :
           mid = len(alist)/2
           lefthalf = alist[:mid]
           righthalf = alist[mid:]
-
+        print("This is from FeatureB ")
         mergeSort(lefthalf)
         mergeSort(righthalf)
 
