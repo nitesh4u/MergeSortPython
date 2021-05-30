@@ -3,7 +3,8 @@ def mergeSort(alist) :
           mid = len(alist)/2
           lefthalf = alist[:mid]
           righthalf = alist[mid:]
-
+        print("This is from FeatureB ")
+        print("One more PR from FeatureB -merge ")
         mergeSort(lefthalf)
         mergeSort(righthalf)
 
@@ -33,3 +34,4 @@ mergeSort(alist)
 print(alist)
 print(alist)
 print("This is added by Developer A from Feature A")
+print("This is added by Developer B from Feature B")
