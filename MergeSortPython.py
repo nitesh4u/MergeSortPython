@@ -17,6 +17,7 @@ def mergeSort(alist) :
                 alist[k]=righthalf[j]
                 j=j+1
             k=k+1
+            print("One more commit by MR Dev A - lets do Squash and Merge")
   
        while i < len(lefthalf):
             alist[k]=lefthalf[i]
